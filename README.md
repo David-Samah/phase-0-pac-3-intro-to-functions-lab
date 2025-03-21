@@ -382,3 +382,6 @@ Assignment][complete-assignment] lesson to review the process.
 [complete-assignment]: https://github.com/learn-co-curriculum/phase-0-completing-assignments-codegrade
 
 [replit]: https://replit.com/languages/javascript
+
+"test": "mocha --timeout 5000 -R mocha-multi --reporter-options spec=-,json=.results.json --bail"
+"test": "mocha --timeout 5000 -R mocha-multi --reporter-options spec=-,json=.results.json --bail"
